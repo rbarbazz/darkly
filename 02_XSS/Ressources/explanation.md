@@ -5,3 +5,5 @@ The Name field is not sanitized
 You can test by removing the maxlength attribute and submitting: <h1 style="color: red;">Hello</h1>
 
 You then get the flag by writting "script" (or only the first letters) in Name or Message
+
+Can be used to store javascript later executed by users displaying the comments
