@@ -1,9 +1,11 @@
-On: /?page=feedback
+On: ```/?page=feedback```
 
-The Name field is not sanitized
+### Flaw
+The Name field is not sanitized.
 
 You can test by removing the maxlength attribute and submitting: ```<h1 style="color: red;">Hello</h1>```
 
-You then get the flag by writting "script" (or only the first letters) in Name or Message
+If you can submit HTML you can potentially submit Javascript which could then be executed next time another user displays the comment.
 
-Can be used to store javascript later executed by users displaying the comments
+### Flag
+You then get the flag by writting ```script``` (or only the first letters) in the Name or Message fields.

